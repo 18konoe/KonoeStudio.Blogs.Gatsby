@@ -7,7 +7,7 @@ title: "SteamCMDをもっと便利に！SteamCMD GUIの導入方法"
 thumbnail: /thumbnail/20190317.jpg
 category-name: "サーバーの建て方"
 category-slug: "build-server"
-tags: "SteamCMD"
+tags: ["SteamCMD"]
 ---
 
 先日、SteamCMD とそのセットアップについて説明しました。

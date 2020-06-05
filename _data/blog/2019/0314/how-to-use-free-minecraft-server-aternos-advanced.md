@@ -7,7 +7,7 @@ title: "無料のMinecraftレンタルサーバー・Aternosの便利な使い�
 thumbnail: /thumbnail/20190313-2.png
 category-name: "サーバーの建て方"
 category-slug: "build-server"
-tags: "Minecraft"
+tags: ["Minecraft"]
 ---
 
 前回の記事では無料で使える Minecraft のサーバー・Aternos の登録からバニラでの起動方法といった基本的な利用方法を解説しました。

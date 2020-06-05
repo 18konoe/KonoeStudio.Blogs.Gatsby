@@ -7,7 +7,7 @@ title: "自作した.NET C#用のDIコンテナの使い方説明"
 thumbnail: /thumbnail/20190425.jpg
 category-name: "説明・解説"
 category-slug: "explanation"
-tags: "C#"
+tags: ["C#"]
 ---
 
 先日、GitHub に自作の C#用 DI コンテナを MIT ライセンスで公開しました。

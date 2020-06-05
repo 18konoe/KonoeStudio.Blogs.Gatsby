@@ -7,7 +7,7 @@ title: "無料のMinecraftレンタルサーバー・Aternosの基本的な使�
 thumbnail: /thumbnail/20190313-2.png
 category-name: "サーバーの建て方"
 category-slug: "build-server"
-tags: "Minecraft"
+tags: ["Minecraft"]
 ---
 
 Minecraft でフレンドなどとマルチプレイをするにはサーバーを立てる必要があるのはプレイヤーの皆さんならご存じかと思います。 自分で立てるのは電気代やサーバーの準備・手間などがあって大変ですし、かといってレンタルサーバーは基本的に有料で、その割にスペックが低いです。 今回は**無料でそこそこ使える**Minecraft のサーバーを提供している[Aternos](https://aternos.org/ja/)の紹介と、導入方法を説明します。

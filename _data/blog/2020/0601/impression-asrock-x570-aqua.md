@@ -7,7 +7,7 @@ title: "ASRock X570 AQUAを使った感想"
 thumbnail: /thumbnail/20200601.jpg
 category-name: "レビュー・感想"
 category-slug: "review-impression"
-tags: "自作PC"
+tags: ["自作PC"]
 ---
 
 2019 年の 10 月頃、ASRock は世界 999 台限定をうたう X570 チップセット搭載の水冷専用マザーボード・X570 AQUA を発売しました。私はこれを機に、数年ぶりとなる本格水冷 PC を組もうと決意し購入したものの、最終的には 1 年足らずで売却。別のマザーボードを購入し、そちらで 3 回目の水冷 PC を組むことにしてしまいました。

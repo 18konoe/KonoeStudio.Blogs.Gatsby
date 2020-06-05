@@ -7,7 +7,7 @@ title: "Minecraft非公式ランチャーを使うためのJava導入方法"
 thumbnail: /thumbnail/20190318.png
 category-name: "MODの入れ方"
 category-slug: "install-mod"
-tags: "Minecraft"
+tags: ["Minecraft"]
 ---
 
 今の Minecraft ではインストールすると Java が既に入っているため困ることはないですが、このブログで紹介している Technic Launcher をはじめとした、非公式のランチャーを使う場合は手動で Java をインストールする必要があります。

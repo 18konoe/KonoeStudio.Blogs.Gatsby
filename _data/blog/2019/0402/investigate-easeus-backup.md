@@ -7,7 +7,7 @@ title: "PCのバックアップをEaseUSへ鞍替えするか検討してみた"
 thumbnail: /thumbnail/20190402.png
 category-name: "レビュー・感想"
 category-slug: "review-impression"
-tags: "Windows"
+tags: ["Windows"]
 ---
 
 毎年 3/31 日は「世界バックアップデー」であることをご存じでしょうか？

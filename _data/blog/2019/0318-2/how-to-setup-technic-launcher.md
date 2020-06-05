@@ -7,7 +7,7 @@ title: "Technic Launcherを導入してMinecraftのMODPackで遊ぼう"
 thumbnail: /thumbnail/20190318-2.jpg
 category-name: "MODの入れ方"
 category-slug: "install-mod"
-tags: "Minecraft"
+tags: ["Minecraft"]
 ---
 
 Technic Launcher はいくつかある Minecraft ランチャーの 1 つで、数ある他のランチャーと同様に MODPack で遊ぶことができます。

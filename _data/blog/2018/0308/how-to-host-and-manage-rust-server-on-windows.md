@@ -7,7 +7,7 @@ title: "正式版Rustのゲームサーバーを構築・運用する方法"
 thumbnail: /thumbnail/20180308.png
 category-name: "サーバーの建て方"
 category-slug: "build-server"
-tags: "Game", "SteamCMD", "Windows"
+tags: ["Game", "SteamCMD", "Windows"]
 ---
 
 Rust は 2013 年の 12 月より Steam にて、早期アクセスタイトルとして発売していたサンドボックスのサバイバルゲームです。 そして約 4 年の月日が経ち、2018 年 2 月より正式版がリリースされました。

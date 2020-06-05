@@ -7,7 +7,7 @@ title: "ThinkPad X1 Extreme (P1) のメモリ・SSD交換方法"
 thumbnail: /thumbnail/20190313-1.png
 category-name: "改造や交換の方法"
 category-slug: "improve"
-tags: "ThinkPad"
+tags: ["ThinkPad"]
 ---
 
 Lenovo の ThinkPad X1 Extreme のメモリと SSD を交換する方法について解説します。

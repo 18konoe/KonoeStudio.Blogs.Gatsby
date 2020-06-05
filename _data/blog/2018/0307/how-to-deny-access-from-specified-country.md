@@ -7,7 +7,7 @@ title: "自宅ゲームサーバーで中国や韓国からのアクセスをブ
 thumbnail: /thumbnail/20180307.jpg
 category-name: "サーバーの建て方"
 category-slug: "build-server"
-tags: "Windows"
+tags: ["Windows"]
 ---
 
 ## はじめに

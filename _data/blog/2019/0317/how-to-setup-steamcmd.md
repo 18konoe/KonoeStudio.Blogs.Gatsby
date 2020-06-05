@@ -7,7 +7,7 @@ title: "SteamCMDを使ったゲームサーバーインストール方法"
 thumbnail: /thumbnail/20190317.jpg
 category-name: "サーバーの建て方"
 category-slug: "build-server"
-tags: "SteamCMD"
+tags: ["SteamCMD"]
 ---
 
 Steam で配信されているゲームのサーバーを立てるときに、SteamCMD を使う必要があることが時々あります。
