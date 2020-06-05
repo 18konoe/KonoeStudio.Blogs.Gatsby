@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
-import HeroHeader from "../components/heroHeader"
+//import HeroHeader from "../components/heroHeader"
 
 const IndexPage = ({
   data: {
@@ -22,7 +22,7 @@ const IndexPage = ({
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
-      <HeroHeader/>
+      {/* <HeroHeader/> */}
       <h2>Blog Posts &darr;</h2>
       <div className="grids">
         {Posts}
@@ -46,7 +46,7 @@ export const pageQuery = graphql`
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "YYYY/MM/DD")
             path
             title
             thumbnail
