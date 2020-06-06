@@ -15,7 +15,7 @@ const PostLink = ({ post }) => (
     </Link>
     <header>
       <div className="post-meta">
-        {post.frontmatter.date == post.frontmatter.lastupdate ? (
+        {post.frontmatter.date === post.frontmatter.lastupdate ? (
           <FontAwesomeIcon icon={faClock} />
         ) : (
           <FontAwesomeIcon icon={faSync} />

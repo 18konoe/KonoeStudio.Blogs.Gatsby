@@ -3,6 +3,8 @@ import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import Iframely from "../components/iframely";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSync, faClock } from "@fortawesome/free-solid-svg-icons";
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -22,8 +24,15 @@ export default function Template({
         <article className="post">
           {!frontmatter.thumbnail && (
             <div className="post-thumbnail">
+              <div className="post-meta">
+                {frontmatter.date === frontmatter.lastupdate ? (
+                  <FontAwesomeIcon icon={faClock} />
+                ) : (
+                  <FontAwesomeIcon icon={faSync} />
+                )}
+                <div className="post-date">{frontmatter.lastupdate}</div>
+              </div>
               <h1 className="post-title">{frontmatter.title}</h1>
-              <div className="post-meta">{frontmatter.date}</div>
             </div>
           )}
           {!!frontmatter.thumbnail && (
@@ -31,8 +40,15 @@ export default function Template({
               className="post-thumbnail"
               style={{ backgroundImage: `url(${frontmatter.thumbnail})` }}
             >
+              <div className="post-meta">
+                {frontmatter.date === frontmatter.lastupdate ? (
+                  <FontAwesomeIcon icon={faClock} />
+                ) : (
+                  <FontAwesomeIcon icon={faSync} />
+                )}
+                <div className="post-date">{frontmatter.lastupdate}</div>
+              </div>
               <h1 className="post-title">{frontmatter.title}</h1>
-              <div className="post-meta">{frontmatter.date}</div>
             </div>
           )}
           <div
@@ -55,7 +71,8 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
       frontmatter {
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "YYYY/MM/DD ddd")
+        lastupdate(formatString: "YYYY/MM/DD ddd")
         path
         title
         thumbnail
