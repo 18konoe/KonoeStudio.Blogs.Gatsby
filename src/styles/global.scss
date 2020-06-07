@@ -163,10 +163,21 @@ a {
   > .blog-post-content {
     max-width: 768px;
     margin: 0 auto;
+    img {
+      border: solid;
+    }
+    span.gatsby-resp-image-background-image {
+      margin: 1em;
+    }
   }
   > .blog-post-content *:last-child,
   > *:last-child {
     margin-bottom: 0;
+  }
+  > .blog-post-share {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .post-title {
     text-align: center;

@@ -6,6 +6,7 @@ import Iframely from "../components/iframely";
 import Ogp from "../components/ogp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSync, faClock } from "@fortawesome/free-solid-svg-icons";
+import ShareButtons from "../components/shareButtons";
 
 const striptags = require("striptags");
 
@@ -16,12 +17,19 @@ export default function Template({
   const { siteMetadata } = site;
   const { frontmatter, html } = markdownRemark;
   const title = `${frontmatter.title} | ${siteMetadata.title}`;
+  const fullPath = `${siteMetadata.siteUrl}${frontmatter.path}`;
+  const summary = extractSummary(html);
   return (
     <Layout>
       <Helmet>
         <title>{title}</title>
       </Helmet>
-      <Ogp isRoot={false} title={title} description={extractSummary(html)} />
+      <Ogp
+        data={siteMetadata}
+        isRoot={false}
+        title={title}
+        description={summary}
+      />
       <Iframely />
       <div className="blog-post-container">
         <article className="post">
@@ -58,15 +66,16 @@ export default function Template({
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
+          <ShareButtons
+            url={fullPath}
+            title={frontmatter.title}
+            summary={summary}
+            siteMetadata={siteMetadata}
+          />
         </article>
       </div>
     </Layout>
   );
-}
-
-function getFirstSentence(documentStr) {
-  const doc = new DOMParser().parseFromString(documentStr, "text/html");
-  return doc.querySelector("p").textContent;
 }
 
 function extractSummary(html) {
@@ -83,6 +92,10 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        siteUrl
+        description
+        imageUrl
+        twitterUser
       }
     }
     markdownRemark(frontmatter: { path: { eq: $path } }) {

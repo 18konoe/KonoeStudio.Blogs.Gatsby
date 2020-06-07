@@ -1,9 +1,9 @@
 import React from "react";
 import Helmet from "react-helmet";
 
-import data from "../../site-meta-data.json";
+// import data from "../../site-meta-data.json";
 
-export default function Ogp({ isRoot, title, description }) {
+export default function Ogp({ data, isRoot, title, description }) {
   const type = isRoot ? "website" : "article";
 
   return (

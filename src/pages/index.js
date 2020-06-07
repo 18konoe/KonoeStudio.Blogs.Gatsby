@@ -22,7 +22,7 @@ const IndexPage = ({
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
-      <Ogp isRoot={true} />
+      <Ogp data={site.siteMetadata} isRoot={true} />
       {/* <HeroHeader/> */}
       <h2>Blog Posts &darr;</h2>
       <div className="grids">{Posts}</div>
@@ -36,7 +36,10 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        siteUrl
         description
+        imageUrl
+        twitterUser
       }
     }
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
