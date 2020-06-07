@@ -187,6 +187,11 @@ a {
       font-family: $font-family;
     }
   }
+  .blog-post-content {
+    div {
+      margin-bottom: 2.2em;
+    }
+  }
 }
 .post-thumbnail {
   text-align: center;
