@@ -22,6 +22,20 @@ module.exports = {
       options: {
         plugins: [
           {
+            resolve: "gatsby-remark-custom-blocks",
+            options: {
+              blocks: {
+                danger: {
+                  classes: "danger",
+                },
+                info: {
+                  classes: "info",
+                  title: "optional",
+                },
+              },
+            },
+          },
+          {
             resolve: "gatsby-remark-embed-gist",
             options: {
               username: "18konoe",

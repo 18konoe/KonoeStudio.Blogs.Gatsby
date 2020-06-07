@@ -3,8 +3,11 @@ import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import Iframely from "../components/iframely";
+import Ogp from "../components/ogp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSync, faClock } from "@fortawesome/free-solid-svg-icons";
+
+const striptags = require("striptags");
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -12,13 +15,13 @@ export default function Template({
   const { site, markdownRemark } = data; // data.markdownRemark holds your post data
   const { siteMetadata } = site;
   const { frontmatter, html } = markdownRemark;
+  const title = `${frontmatter.title} | ${siteMetadata.title}`;
   return (
     <Layout>
       <Helmet>
-        <title>
-          {frontmatter.title} | {siteMetadata.title}
-        </title>
+        <title>{title}</title>
       </Helmet>
+      <Ogp isRoot={false} title={title} description={extractSummary(html)} />
       <Iframely />
       <div className="blog-post-container">
         <article className="post">
@@ -59,6 +62,20 @@ export default function Template({
       </div>
     </Layout>
   );
+}
+
+function getFirstSentence(documentStr) {
+  const doc = new DOMParser().parseFromString(documentStr, "text/html");
+  return doc.querySelector("p").textContent;
+}
+
+function extractSummary(html) {
+  const postContent = striptags(html)
+    .replace(/\r?\n/g, "")
+    .trim();
+  return postContent.length <= 120
+    ? postContent
+    : postContent.slice(0, 120) + "...";
 }
 
 export const pageQuery = graphql`

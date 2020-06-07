@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import PostLink from "../components/post-link";
+import Ogp from "../components/ogp";
 //import HeroHeader from "../components/heroHeader"
 
 const IndexPage = ({
@@ -21,6 +22,7 @@ const IndexPage = ({
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
+      <Ogp isRoot={true} />
       {/* <HeroHeader/> */}
       <h2>Blog Posts &darr;</h2>
       <div className="grids">{Posts}</div>
