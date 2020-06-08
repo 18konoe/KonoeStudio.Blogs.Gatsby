@@ -4,8 +4,12 @@
   "description": "PC・ソフトウェア・ゲーム・サーバー関連がメインのTech系ブログ",
   "imageUrl": "icons/icon-512x512.png",
   "twitterUser": "18konoe",
-  "home": {
-    "title": "Hi! I'm Delog",
-    "description": "I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)"
-  }
+  "tags": ["自作PC", "C#", "Windows", "SteamCMD", "Minecraft", "ThinkPad"],
+  "categories": [
+    { "slug": "review-impression", "name": "レビュー・感想" },
+    { "slug": "explanation", "name": "説明・解説" },
+    { "slug": "build-server", "name": "サーバーの建て方" },
+    { "slug": "install-mod", "name": "MODの入れ方" },
+    { "slug": "improve", "name": "改造や交換の方法" }
+  ]
 }
