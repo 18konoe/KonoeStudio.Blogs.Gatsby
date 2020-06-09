@@ -3,7 +3,7 @@ template: BlogPost
 path: /impression-asrock-x570-aqua
 date: 2020-06-01
 lastupdate: 2020-06-07
-title: "ASRock X570 AQUAを使った感想"
+title: "ASRock X570 AQUAの気に入らなかった点"
 thumbnail: /thumbnail/20200601.jpg
 category-name: "レビュー・感想"
 category-slug: "review-impression"

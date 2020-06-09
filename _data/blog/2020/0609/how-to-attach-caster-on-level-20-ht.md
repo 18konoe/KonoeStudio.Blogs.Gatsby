@@ -1,9 +1,9 @@
 ---
 template: BlogPost
 path: /how-to-attach-caster-on-level-20-ht
-date: 2020-06-01
-lastupdate: 2020-06-07
-title: "Thermaltake LEVEL 20 HTにキャスターを取り付けた話"
+date: 2020-06-07
+lastupdate: 2020-06-10
+title: "Thermaltake LEVEL 20 HTを買ったのでキャスターを取り付けた話"
 thumbnail: /thumbnail/20200609.jpg
 category-name: "改造や交換の方法"
 category-slug: "improve"
@@ -14,17 +14,15 @@ tags: ["自作PC"]
 
 そして 2020 年、（私の中での）自作 PC は大艦巨砲主義に回顧する流れとなり、大型ラジエター 2 台を積んでなお余裕のあるスペースが欲しかったことから、Thermaltake LEVEL 20 HT を購入するに至りました。
 
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.amazon.co.jp/Thermaltake-%25E3%2583%2595%25E3%2583%25AB%25E3%2582%25BF%25E3%2583%25AF%25E3%2583%25BCPC%25E3%2582%25B1%25E3%2583%25BC%25E3%2582%25B9-4%25E9%259D%25A2%25E5%25BC%25B7%25E5%258C%2596%25E3%2582%25AC%25E3%2583%25A9%25E3%2582%25B9-CA-1P6-00F1WN-00-CS7745/dp/B08165PCXY" data-iframely-url="//cdn.iframe.ly/lET5ETY?iframe=card-small&omit_script=1"></a></div></div>
-
 ## 大型ケースの問題点
 
-皆さんは大型ケースをどのように設置しているのでしょうか。私は掃除やメンテナンスのしやすさを重視し、平台車の上に載せた状態で机の下に滑り込ませています。
+購入を決意するのはよかったものの、私には一つ懸念がありました。それは**このケースを台車に載せると、デスクの下に入らないのではないか**というものです。掃除やメンテナンスのしやすさを重視し、このような平台車の上に載せた状態でデスクの下に滑り込ませて運用していました。
 
-LEVEL 20 HT の寸法は`H613 x W468 x D503 mm`です。日本の一般的なデスクの高さは`700mm`。板の厚みが`30mm`だとすると、その下の空間は`670mm`です。
+<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 52.5%; padding-top: 120px;"><a href="https://www.amazon.co.jp/%25E3%2582%25B5%25E3%2583%25B3%25E3%2583%25AF%25E3%2582%25B5%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25A4-LPS-T100N-%25E3%2583%2597%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25BF%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25B3%25E3%2583%2589/dp/B016LQUN1M" data-iframely-url="//cdn.iframe.ly/Ic9OncJ?iframe=card-small&omit_script=1"></a></div></div>
 
-縦横`500mm`ある平台車の厚みは`80mm`くらいあります。このままでは台車に載せながら机の下に配置できません。
+LEVEL 20 HT の寸法は`H613 x W468 x D503 mm`です。日本の一般的なデスクの高さは`700mm`。うちのデスクは板の下に柱もあり、下の空間は約`635mm`でした。
 
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.amazon.co.jp/%25E3%2582%25B5%25E3%2583%25B3%25E3%2583%25AF%25E3%2582%25B5%25E3%2583%2597%25E3%2583%25A9%25E3%2582%25A4-LPS-T100N-%25E3%2583%2597%25E3%2583%25AA%25E3%2583%25B3%25E3%2582%25BF%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25B3%25E3%2583%2589/dp/B016LQUN1M" data-iframely-url="//cdn.iframe.ly/X8qV9F3?iframe=card-small&omit_script=1"></a></div></div>
+縦横`500mm`ある平台車の厚みは`80mm`くらいあります。どう考えても台車に載せながらデスクの下には配置できません。
 
 そこで、LEVEL 20 HT の足を取り外し、代わりにキャスターを取り付けることにしました。
 
@@ -42,25 +40,38 @@ LEVEL 20 HT の寸法は`H613 x W468 x D503 mm`です。日本の一般的なデ
 
 ## キャスターと固定用ねじ選定
 
-取付ピッチが`25mm×25mm`・取付穴径`5mm`くらいのキャスターなら取り付けられると予想して購入しました。
-キャスターの車輪径は`40mm`と`50mm`がありましたが、許容荷重に影響するので`50mm`を選択しました。
+取付ピッチが`25mm×25mm`・取付穴径`4~5mm`くらいのキャスターなら（若干のゴリ押しを含めて）取り付け可能でした。
+ネジは高さ 10mm あれば十分です。穴径`4mm`のキャスターなら`M4`、`5mm`なら`M5`でいいと思います。
+キャスターの車輪径は`40mm`と`50mm`がありましたが、許容荷重と、取り付け後の高さに影響します。
 
-<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 52.5%; padding-top: 120px;"><a href="https://www.amazon.co.jp/%25E3%2583%2588%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25B3-%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%25E5%25BC%258F%25E5%258F%258C%25E8%25BC%25AA%25E3%2582%25AD%25E3%2583%25A3%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25BC-50%25E5%25BE%2584-%25E8%2587%25AA%25E5%259C%25A8%25E3%2582%25B9%25E3%2583%2588%25E3%2583%2583%25E3%2583%2591%25E3%2583%25BC%25E4%25BB%2598-TGS50P/dp/B00B4TL4ME" data-iframely-url="//cdn.iframe.ly/oVvRM7b?iframe=card-small&omit_script=1"></a></div></div>
+私はこちらの車輪径が`40mm`のキャスターを M4 ネジで取り付けました。ピッタリではなかったですが、M4 ネジで取り付けできました。
 
-ねじは長さ`10mm`の M5 を選択しました。場合によっては M4 が必要になるかもしれません。
+<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 52.5%; padding-top: 120px;"><a href="https://www.amazon.co.jp/NZCMYX-%25E3%2583%2596%25E3%2583%25AC%25E3%2583%25BC%25E3%2582%25AD%25E4%25BB%2598%25E3%2581%258D%25E3%2583%2595%25E3%2583%25A9%25E3%2583%2583%25E3%2583%2588%25E3%2582%25AD%25E3%2583%25A3%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25BC360%25E5%25BA%25A6%25E3%2583%25AD%25E3%2583%25BC%25E3%2582%25BF%25E3%2583%25AA%25E3%2583%25BC%25E3%2583%259F%25E3%2583%25A5%25E3%2583%25BC%25E3%2583%2588%25E3%2582%25B7%25E3%2583%25AA%25E3%2583%25BC%25E3%2582%25BADIY%25E5%25AE%25B6%25E5%2585%25B7%25E4%25BA%25A4%25E6%258F%259B%25E3%2582%25AD%25E3%2583%2583%25E3%2583%2588%25E7%259B%25B4%25E5%25BE%258440mm-%25EF%25BC%25884%25E5%2580%258B%25EF%25BC%2589/dp/B07RZB87BB" data-iframely-url="//cdn.iframe.ly/TYGNLXl?iframe=card-small&omit_script=1"></a></div></div>
 
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.amazon.co.jp/KENEJI-%25E7%259A%25BF%25E9%25A0%25AD%25E5%25B0%258F%25E3%2583%258D%25E3%2582%25B8-%25E3%2583%2598%25E3%2583%2583%25E3%2583%2589%25E3%2582%25B9%25E3%2582%25AF%25E3%2583%25AA%25E3%2583%25A5%25E3%2583%25BC-%25E3%2582%25B9%25E3%2583%2586%25E3%2583%25B3%25E3%2583%25AC%25E3%2582%25B9-%25E3%2583%2595%25E3%2583%25A9%25E3%2583%2583%25E3%2583%2588%25E3%2583%2598%25E3%2583%2583%25E3%2583%2589/dp/B07PXKPNTF" data-iframely-url="//cdn.iframe.ly/ZJkDthR?iframe=card-small&omit_script=1"></a></div></div>
+## キャスターの車輪径と高さ
 
-## キャスター取り付け
+最初はこちらの車輪径`50mm`のキャスターを取り付けていましたが、取り付け後の高さが`640~650mm`くらいになってしまいました。
 
-ほんの僅かにズレていましたが、M5 ネジなら回しながらいい感じに取り付けできました。M4 ネジなら回さずに済んだかもしれません。
+<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 52.5%; padding-top: 120px;"><a href="https://www.amazon.co.jp/%25E3%2583%2588%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25B3-%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%25E5%25BC%258F%25E5%258F%258C%25E8%25BC%25AA%25E3%2582%25AD%25E3%2583%25A3%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25BC-50%25E5%25BE%2584-%25E8%2587%25AA%25E5%259C%25A8%25E3%2582%25B9%25E3%2583%2588%25E3%2583%2583%25E3%2583%2591%25E3%2583%25BC%25E4%25BB%2598-TGS50P/dp/B00B4TL4ME" data-iframely-url="//cdn.iframe.ly/QSZlNLg?iframe=card-small&omit_script=1"></a></div></div>
+
+同じシリーズの車輪径`40mm`のキャスターも売っているみたいです。
+
+<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 52.5%; padding-top: 120px;"><a href="https://www.amazon.co.jp/%25E3%2583%2588%25E3%2583%25BC%25E3%2582%25B7%25E3%2583%25B3-%25E3%2583%2597%25E3%2583%25AC%25E3%2583%25BC%25E3%2583%2588%25E5%25BC%258F%25E5%258F%258C%25E8%25BC%25AA%25E3%2582%25AD%25E3%2583%25A3%25E3%2582%25B9%25E3%2582%25BF%25E3%2583%25BC-40%25E5%25BE%2584-%25E8%2587%25AA%25E5%259C%25A8-TG40P/dp/B00B4TL0WS" data-iframely-url="//cdn.iframe.ly/8Fl298O?iframe=card-small&omit_script=1"></a></div></div>
+
+## 取り付け後の雰囲気
+
+当初装着していた車輪径`50mm`のキャスター取り付け後の状態です。
 
 ![](03.jpg)
 
-ネジの長さは`10mm`でピッタリでした。
+ネジの長さは`10mm`で丁度良い感じでした。
 
 ![](04.jpg)
 
 ## おわりに
 
-キャスター取り付け後の高さは`650mm`でした。あれ、思ったより高いですね･･･。キャスターの車輪径が`40mm`のものを選べば、少なくともあと`10mm`は低くすることができそうです。
+少なくとも執筆当時には LEVEL 20 HT の情報は多くありませんでした。キャスターが取り付け可能かどうかを、購入前に公式の高解像度画像や紹介動画から血眼になって探し、到着後も寸法を測り適合しそうなキャスターを見つけるためにそれなりの時間をかけました。
+
+このケースを検討している・あるいはすでに購入されている方に向けて、本記事が一助となれば幸いです。
+
+<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 52.5%; padding-top: 120px;"><a href="https://www.amazon.co.jp/Thermaltake-%25E3%2583%2595%25E3%2583%25AB%25E3%2582%25BF%25E3%2583%25AF%25E3%2583%25BCPC%25E3%2582%25B1%25E3%2583%25BC%25E3%2582%25B9-4%25E9%259D%25A2%25E5%25BC%25B7%25E5%258C%2596%25E3%2582%25AC%25E3%2583%25A9%25E3%2582%25B9-CA-1P6-00F1WN-00-CS7745/dp/B08165PCXY" data-iframely-url="//cdn.iframe.ly/3ttQJdd?iframe=card-small&omit_script=1"></a></div></div>
