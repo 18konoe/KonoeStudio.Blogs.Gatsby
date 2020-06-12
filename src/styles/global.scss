@@ -203,6 +203,12 @@ a {
       margin-bottom: 2.2em;
     }
   }
+  th {
+    border-bottom: 1px solid var(--primary-color);
+  }
+  td {
+    border-bottom: 1px solid var(--secondary-color);
+  }
 }
 .post-thumbnail {
   text-align: center;
