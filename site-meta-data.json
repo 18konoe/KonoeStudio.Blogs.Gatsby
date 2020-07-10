@@ -2,7 +2,7 @@
   "title": "Konoe Studio",
   "siteUrl": "https://konoe.studio/",
   "description": "PC・ソフトウェア・ゲーム・サーバー関連がメインのTech系ブログ",
-  "imageUrl": "icons/icon-512x512.png",
+  "imageUrl": "/icons/icon-512x512.png",
   "twitterUser": "18konoe",
   "tags": ["自作PC", "C#", "Windows", "SteamCMD", "Minecraft", "ThinkPad"],
   "categories": [
