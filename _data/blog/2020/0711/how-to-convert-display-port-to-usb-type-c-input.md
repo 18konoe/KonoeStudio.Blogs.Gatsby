@@ -26,6 +26,6 @@ USB Type-C を DisplayPort に変換するケーブルは数多く販売して�
 
 かなり調べた結果、**双方向対応の変換ケーブルというものが存在**していることがわかりました。
 
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.amazon.co.jp/StarTech-com-USB-Type-C-DisplayPort-Thunderbolt/dp/B083YWGPW1" data-iframely-url="//cdn.iframe.ly/wkxVtuP?iframe=card-small?iframe=card-small&omit_script=1"></a></div></div>
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://www.amazon.co.jp/StarTech-com-USB-Type-C-DisplayPort-Thunderbolt/dp/B083YWGPW1" data-iframely-url="//cdn.iframe.ly/wkxVtuP?iframe=card-small&omit_script=1"></a></div></div>
 
 実際に ThinkVision M14 に接続して動作することを確認しました。注意点としては、DisplayPort には給電機能がないため、接続ポートの反対側のポートから USb Type-C PD 対応の電源を供給する必要があります。
