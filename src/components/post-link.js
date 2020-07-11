@@ -2,15 +2,21 @@ import React from "react";
 import { Link } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSync, faClock } from "@fortawesome/free-solid-svg-icons";
+import Image from "./background-image";
 
 const PostLink = ({ post }) => (
   <article className="card">
     <Link to={post.frontmatter.path} className="card-img-link">
       {!!post.frontmatter.thumbnail && (
-        <div
+        // <div
+        //   className="card-img"
+        //   style={{ backgroundImage: `url(${post.frontmatter.thumbnail})` }}
+        // ></div>
+        <Image
+          tag="div"
           className="card-img"
-          style={{ backgroundImage: `url(${post.frontmatter.thumbnail})` }}
-        ></div>
+          filename={post.frontmatter.thumbnail.split("/").reverse()[0]}
+        />
       )}
     </Link>
     <header>
