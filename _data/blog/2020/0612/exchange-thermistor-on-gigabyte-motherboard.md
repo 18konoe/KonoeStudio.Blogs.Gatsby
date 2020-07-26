@@ -31,7 +31,7 @@ ASRock X570 AQUA を手放した代わりに、GIGABYTE X570 Aorus Master を購
 [Koolance Coolant Temperature Sensor Plug, 10K Ohm - SEN-AP008G](https://koolance.com/coolant-temperature-sensor-plug-10k-ohm)
 ![](./01.jpg)
 
-Description に書いてある通り、`25°C`で`10KΩ`となるセンサーです。
+Description に書いてある通り、25°C で 10KΩ となるセンサーです。
 
 > Coolant thermistor temperature sensor compatible with Koolance multi-sensor systems. Sensor fitting is G 1/4 BSPP (parallel) threaded. Wire length = 30" (76cm). NOTE: This sensor will only work with Koolance products which use 10K Ohm @25°C sensors (first introduced in 2011).
 
@@ -43,7 +43,7 @@ Description に書いてある通り、`25°C`で`10KΩ`となるセンサーで
 
 サーミスタは温度が上がると抵抗値が下がります。ということは同じ環境において大体同じくらいの抵抗値になれば、それは大体同じ動作をする温度センサーと言えるのではないでしょうか。
 
-手っ取り早く**マザーボードを動作させられる環境があるなら、両方を接続して表示される温度を比較しても良いかもしれません。** 今回は水と湯につけたとき、そして部屋での抵抗値をテスターで比較しました。
+手っ取り早くマザーボードを動作させられる環境があるなら、両方を接続して表示される温度を比較しても良いかもしれません。今回は水と湯につけたとき、そして部屋での抵抗値をテスターで比較しました。
 
 |             |  付属品  | SEN-AP008G |
 | :---------: | :------: | :--------: |
@@ -52,7 +52,7 @@ Description に書いてある通り、`25°C`で`10KΩ`となるセンサーで
 | 湯 (約 40℃) | 5.90 KΩ  |  5.91 KΩ   |
 
 ほぼ同じですね。抵抗特性は対数グラフのため、温度が高いときほど差が小さいのも予想通りです。
-これは付属品も**だいたい`25°C`で`10KΩ`となるサーミスタだと判断しても良さそう**です。
+これは付属品も*だいたい 25°C で 10KΩ となるサーミスタだと判断しても良さそう*です。
 
 ## 温度計用のピンアサイン
 
@@ -60,7 +60,7 @@ Description に書いてある通り、`25°C`で`10KΩ`となるセンサーで
 
 ![](./02.png)
 
-温度計側は先端に印のついている側が`SENSOR IN`です。見えている金属部分にテスターを当てて測定しました。
+温度計側は先端に印のついている側が SENSOR IN です。見えている金属部分にテスターを当てて測定しました。
 
 ![](./03.jpg)
 

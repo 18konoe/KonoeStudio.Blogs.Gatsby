@@ -29,6 +29,8 @@ const typography = new Typography({
       marginBottom: "0.6em",
     },
     p: {
+      letterSpacing: "0.01em",
+      textIndent: "1em",
       textAlign: "justify",
       wordBreak: "break-all",
     },

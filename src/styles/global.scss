@@ -30,6 +30,8 @@ body.light {
   --contact-bg: #f7f8fe;
   --contact-bdr: #d3d6e7;
   --input-bg: var(--background);
+  --strong-bg: #ffadad;
+  --em-bg: #c1e0ff;
 }
 body.dark {
   --primary-color: #9984d5;
@@ -52,6 +54,8 @@ body.dark {
   --contact-bg: var(--card-shadow);
   --contact-bdr: var(--card-bg);
   --input-bg: var(--card-bg);
+  --strong-bg: #ce2020;
+  --em-bg: #4f8fcf;
 }
 /* System Fonts as used by Medium and WordPress */
 body {
@@ -187,7 +191,6 @@ a {
     text-align: center;
     margin: 0 0 0.5rem;
     line-height: 1.3;
-    font-size: 2rem;
   }
   .post-meta {
     position: absolute;
@@ -205,6 +208,14 @@ a {
   .blog-post-content {
     div {
       margin-bottom: 2.2em;
+    }
+    em {
+      background: linear-gradient(transparent 80%, var(--em-bg) 80%);
+      font-style: normal;
+    }
+    strong {
+      background: linear-gradient(transparent 80%, var(--strong-bg) 80%);
+      font-weight: normal;
     }
   }
   th {
