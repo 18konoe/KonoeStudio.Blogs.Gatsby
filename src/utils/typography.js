@@ -3,7 +3,7 @@ import Typography from "typography";
 const typography = new Typography({
   title: "japanese-riywo",
   baseFontSize: "19px",
-  baseLineHeight: "2.2em",
+  baseLineHeight: "2.0em",
   scaleRatio: 2.3,
   googleFonts: [
     {
@@ -26,7 +26,8 @@ const typography = new Typography({
     },
     "h1,h2,h3,h4,h5,h6": {
       letterSpacing: "0.02em",
-      marginBottom: "0.6em",
+      marginTop: "2.5em",
+      marginBottom: "0.8em",
     },
     p: {
       letterSpacing: "0.01em",
@@ -47,7 +48,9 @@ const typography = new Typography({
       //color: gray(47),
       fontSize: "85%",
       position: "relative",
-      margin: "0.5em",
+      marginLeft: "0.5em",
+      marginRight: "0.5em",
+      marginBottom: "1.8em",
       padding: "0.5em 1em 0.5em 2em",
     },
     "blockquote:before": {

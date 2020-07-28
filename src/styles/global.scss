@@ -217,6 +217,9 @@ a {
       background: linear-gradient(transparent 80%, var(--strong-bg) 80%);
       font-weight: normal;
     }
+    blockquote > p {
+      text-indent: 0em;
+    }
   }
   th {
     border-bottom: 1px solid var(--primary-color);
