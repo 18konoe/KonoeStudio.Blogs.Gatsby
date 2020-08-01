@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: konoe.studio
+Token: 75930f25da5b5646f6d772f9dad0f3fff91c444303fd22c9d8834e617b2cee48
