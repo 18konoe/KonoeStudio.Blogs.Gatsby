@@ -4,7 +4,15 @@
   "description": "PC・ソフトウェア・ゲーム・サーバー関連がメインのTech系ブログ",
   "imageUrl": "/icons/icon-512x512.png",
   "twitterUser": "18konoe",
-  "tags": ["自作PC", "C#", "Windows", "SteamCMD", "Minecraft", "ThinkPad"],
+  "tags": [
+    "自作PC",
+    "C#",
+    "Windows",
+    "SteamCMD",
+    "Minecraft",
+    "ThinkPad",
+    "PC環境"
+  ],
   "categories": [
     { "slug": "review-impression", "name": "レビュー・感想" },
     { "slug": "explanation", "name": "説明・解説" },
