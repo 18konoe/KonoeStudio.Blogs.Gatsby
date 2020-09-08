@@ -5,8 +5,8 @@ date: 2019-04-25
 lastupdate: 2019-04-25
 title: "自作した.NET C#用のDIコンテナの使い方説明"
 thumbnail: /thumbnail/20190425.jpg
-category-name: "説明・解説"
-category-slug: "explanation"
+category_name: "説明・解説"
+category_slug: "explanation"
 tags: ["C#"]
 ---
 

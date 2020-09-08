@@ -5,8 +5,8 @@ date: 2019-03-14
 lastupdate: 2020-04-09
 title: "無料のMinecraftレンタルサーバー・Aternosの便利な使い方"
 thumbnail: /thumbnail/220190317.jpg
-category-name: "サーバーの建て方"
-category-slug: "build-server"
+category_name: "サーバーの建て方"
+category_slug: "build-server"
 tags: "SteamCMD"
 ---
 

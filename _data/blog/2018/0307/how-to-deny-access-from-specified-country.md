@@ -5,8 +5,8 @@ date: 2018-03-07
 lastupdate: 2019-03-18
 title: "自宅ゲームサーバーで中国や韓国からのアクセスをブロックする"
 thumbnail: /thumbnail/20180307.jpg
-category-name: "サーバーの建て方"
-category-slug: "build-server"
+category_name: "サーバーの建て方"
+category_slug: "build-server"
 tags: ["Windows"]
 ---
 

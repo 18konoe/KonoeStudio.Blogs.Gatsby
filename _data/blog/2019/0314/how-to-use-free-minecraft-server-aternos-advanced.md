@@ -5,8 +5,8 @@ date: 2019-03-14
 lastupdate: 2019-03-18
 title: "無料のMinecraftレンタルサーバー・Aternosの便利な使い方"
 thumbnail: /thumbnail/20190313-2.png
-category-name: "サーバーの建て方"
-category-slug: "build-server"
+category_name: "サーバーの建て方"
+category_slug: "build-server"
 tags: ["Minecraft"]
 ---
 

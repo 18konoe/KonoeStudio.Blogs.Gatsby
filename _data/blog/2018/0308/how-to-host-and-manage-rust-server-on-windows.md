@@ -5,8 +5,8 @@ date: 2018-03-08
 lastupdate: 2019-03-29
 title: "正式版Rustのゲームサーバーを構築・運用する方法"
 thumbnail: /thumbnail/20180308.png
-category-name: "サーバーの建て方"
-category-slug: "build-server"
+category_name: "サーバーの建て方"
+category_slug: "build-server"
 tags: ["SteamCMD", "Windows"]
 ---
 

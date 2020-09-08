@@ -5,8 +5,8 @@ date: 2019-03-13
 lastupdate: 2019-03-18
 title: "ThinkPad X1 Extreme (P1) のメモリ・SSD交換方法"
 thumbnail: /thumbnail/20190313-1.png
-category-name: "改造や交換の方法"
-category-slug: "improve"
+category_name: "改造や交換の方法"
+category_slug: "improve"
 tags: ["ThinkPad"]
 ---
 

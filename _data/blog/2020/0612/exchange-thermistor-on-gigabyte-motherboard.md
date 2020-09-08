@@ -5,8 +5,8 @@ date: 2020-06-12
 lastupdate: 2020-06-12
 title: "GIGABYTEマザーボードにKoolanceの水温計を付けられるのか調べた"
 thumbnail: /thumbnail/20200612.jpg
-category-name: "改造や交換の方法"
-category-slug: "improve"
+category_name: "改造や交換の方法"
+category_slug: "improve"
 tags: ["自作PC"]
 ---
 

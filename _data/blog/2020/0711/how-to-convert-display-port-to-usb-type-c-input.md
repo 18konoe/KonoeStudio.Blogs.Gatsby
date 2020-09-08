@@ -5,8 +5,8 @@ date: 2020-07-11
 lastupdate: 2020-07-11
 title: "DisplayPort出力しかないPCからUSB Type-C入力しかないディスプレイを使う方法"
 thumbnail: /thumbnail/20200711.jpg
-category-name: "説明・解説"
-category-slug: "explanation"
+category_name: "説明・解説"
+category_slug: "explanation"
 tags: ["自作PC"]
 ---
 

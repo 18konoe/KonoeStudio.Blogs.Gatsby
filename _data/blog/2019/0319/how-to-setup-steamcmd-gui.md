@@ -5,8 +5,8 @@ date: 2019-03-19
 lastupdate: 2019-03-19
 title: "SteamCMDをもっと便利に！SteamCMD GUIの導入方法"
 thumbnail: /thumbnail/20190317.jpg
-category-name: "サーバーの建て方"
-category-slug: "build-server"
+category_name: "サーバーの建て方"
+category_slug: "build-server"
 tags: ["SteamCMD"]
 ---
 

@@ -5,8 +5,8 @@ date: 2020-06-07
 lastupdate: 2020-06-10
 title: "Thermaltake LEVEL 20 HTを買ったのでキャスターを取り付けた話"
 thumbnail: /thumbnail/20200609.jpg
-category-name: "改造や交換の方法"
-category-slug: "improve"
+category_name: "改造や交換の方法"
+category_slug: "improve"
 tags: ["自作PC"]
 ---
 

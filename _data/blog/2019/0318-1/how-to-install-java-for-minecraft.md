@@ -5,8 +5,8 @@ date: 2019-03-18
 lastupdate: 2019-03-18
 title: "Minecraft非公式ランチャーを使うためのJava導入方法"
 thumbnail: /thumbnail/20190318-1.png
-category-name: "MODの入れ方"
-category-slug: "install-mod"
+category_name: "MODの入れ方"
+category_slug: "install-mod"
 tags: ["Minecraft"]
 ---
 

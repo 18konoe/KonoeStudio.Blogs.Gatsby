@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import ThemeChanger from "../components/themeChanger";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faRss } from "@fortawesome/free-solid-svg-icons";
 
 export default (props) => (
   <nav className="navigation">
@@ -12,6 +13,9 @@ export default (props) => (
     </Link>
     <Link to="//github.com/18konoe" className="nav-item">
       <FontAwesomeIcon icon={faGithub} size="lg" />
+    </Link>
+    <Link to="/rss.xml" className="nav-item">
+      <FontAwesomeIcon icon={faRss} size="lg" />
     </Link>
     <ThemeChanger />
   </nav>

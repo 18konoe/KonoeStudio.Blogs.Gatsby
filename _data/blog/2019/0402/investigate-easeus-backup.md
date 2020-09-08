@@ -5,8 +5,8 @@ date: 2019-04-02
 lastupdate: 2019-04-02
 title: "PCのバックアップをEaseUSへ鞍替えするか検討してみた"
 thumbnail: /thumbnail/20190402.png
-category-name: "レビュー・感想"
-category-slug: "review-impression"
+category_name: "レビュー・感想"
+category_slug: "review-impression"
 tags: ["Windows"]
 ---
 
